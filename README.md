@@ -1,3 +1,8 @@
 # LannisterPay
-Payment API for flutterwave API test
-Redis is used for caching
+A transaction fee processing service using FCS to calculate fees
+
+## Technologies
+NodeJS & Redis
+
+## Launch
+npm run. API and Redis ports are specified in the .env file
