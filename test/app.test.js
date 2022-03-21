@@ -11,8 +11,8 @@ describe('Test Lannister Pay',()=>{
 		await disconnect();
 	});
 
-	test('POST /fees',()=>{
-		request(app)
+	test('POST /fees',async()=>{
+		await request(app)
 			.post('/fees')
 			.send(
 				{
@@ -22,8 +22,8 @@ describe('Test Lannister Pay',()=>{
 			.expect(200);
 	});
 
-	test('POST /compute-transaction-fee',()=>{
-		request(app)
+	test('POST /compute-transaction-fee',async()=>{
+		await request(app)
 			.post('/compute-transaction-fee')
 			.send(
 				{
