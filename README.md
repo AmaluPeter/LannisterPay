@@ -5,4 +5,4 @@ A transaction fee processing service using FCS to calculate fees
 NodeJS & Redis
 
 ## Launch
-npm run. API and Redis ports are specified in the .env file
+npm start. API and Redis ports are specified in the .env file. They default to 8000 and 6379 respectively
