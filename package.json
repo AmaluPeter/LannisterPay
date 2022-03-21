@@ -2,7 +2,8 @@
   "name": "LannisterPay",
   "version": "1.0.0",
   "scripts": {
-    "start": "cross-env node app.js"
+    "start": "cross-env node server.js",
+    "test": "jest --detectOpenHandles --forceExit"
   },
   "dependencies": {
     "dotenv": "^16.0.0",
@@ -12,6 +13,8 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
-    "eslint": "^7.32.0"
+    "eslint": "^7.32.0",
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
   }
 }
